@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+.hero{
+    background: url(../img/addproduct.jpg)no-repeat center center/cover;
+}
+.product-tag{
+    color: #fff;
+    font-size: 15px;
+}
+input{
+    width: 15rem;
+    border: none;
+    height: 3rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.addproduct-container{
+    background-color: rgba(240, 248, 255, 0.075);
+    width: 30%;
+    height: 80vh;
+    margin: 10rem;
+    padding: 10rem 0;
+}
+
+/* contactus message starts */
+
+.review-field{
+    background: rgb(64, 115, 209);
+    color: white;
+    padding: 5rem 3rem;
+
+}
+.usermessage{
+    width: 95%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+    padding: auto 20px;
+    margin: 10px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+.name{
+    width: 25%;
+    text-align: left;
+}
+.message{
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+.email{
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+
+
+
+/*  Customer order list */
+
+/* .container{
+    border: 3px solid black;
+    border-radius: 10px;
+} */
+.Food-order-box{
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 .5rem;
+}
+
+.food-order-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.des{
+    width: 15%;
+    text-align: start;
+    font-size: 1.7rem;
+    
+}
+.edes{
+    flex: 1;
+}
+
+.btn-food-review{
+    background-color: bisque;
+    color: black;
+}
+.btn-food-review:hover{
+    background-color: rgb(58, 47, 33);
+    color: #fff;
+}
+
+.heading{
+    font-family:cursive;
+    font-size: 2rem;
+}

@@ -1,0 +1,173 @@
+/* .img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.btn{
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0;
+    
+}
+.btn-primary{
+    color: white;
+    cursor: pointer;
+   margin-left: 12rem;
+   background-color: #2f3542;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #011216;
+    font-weight: 600;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+} */
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background: url(../img/hero.jpg)no-repeat center center/cover;
+    /* padding: 4% 0; */
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+.food-menu-box{
+    width: 90%;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 228, 228);
+    border-radius: 15px;
+}
+.des{
+    padding: 1rem;
+   
+}
+.des p{
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+.food-menu-img{
+    width: 15%;
+  
+}
+.food-menu-img img{
+    border-radius: 5px;
+}
+
+.food-menu-desc{
+    width: 70%;
+   display: flex;
+   height: 15vh;
+   align-items: center;
+    margin-left: 10%;
+justify-content: space-between;
+}
+
+/* .food-price{
+    font-size: 1.2rem;
+
+} */
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+.btn-primary{
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+   /* margin-right: 1rem; */
+   border-radius: 5px;
+   background-color: #3c3c3d;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #011216;
+    font-weight: 600;
+}
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .order{
+        width: 100%;
+    }
+}
